@@ -4,7 +4,7 @@ export const List = ({ people }) => {
   return (
     <>
       {
-        people.map( person => <ListItem key={person.id} person={ person } /> )
+        people.map( person => <ListItem key={person.id} { ...person } /> )
       }
     </>
   )

@@ -1,5 +1,4 @@
-export const ListItem = ({ person }) => {
-  const { image, name, age } = person;
+export const ListItem = ({ image, name, age }) => {
 
   return (
     <>
